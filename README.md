@@ -64,7 +64,7 @@ This cookbook was tested on Amazon & Ubuntu Linux and expected to work on other 
 
 * `default['topbeat']['config']['input']['period']` (default: `10`): topbeat statistics collection interval
 
-* `default['topbeat']['config']['input']['period']` (default: `10`): topbeat procs to collect statistics
+* `default['topbeat']['config']['input']['procs']` (default: `".*"`): topbeat procs to collect statistics
 
 * `default['topbeat']['config']['output']` (default: `{}`): topbeat output configuration, e.g. elasticsearch, logstash, file etc.
 
